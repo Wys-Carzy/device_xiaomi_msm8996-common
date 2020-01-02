@@ -50,13 +50,14 @@
 
         <activity
             android:name=".ButtonSettingsActivity"
+            android:icon="@drawable/ic_mi"
             android:label="@string/button_panel_title">
             <intent-filter>
                 <action android:name="com.android.settings.action.EXTRA_SETTINGS" />
             </intent-filter>
             <meta-data
-                android:name="com.android.settings.icon"
-                android:resource="@drawable/ic_settings_additional_buttons" />
+                android:name="com.android.settings.bg.hint"
+                android:resource="@color/homepage_parts_background" />
             <meta-data
                 android:name="com.android.settings.category"
                 android:value="com.android.settings.category.ia.homepage" />
