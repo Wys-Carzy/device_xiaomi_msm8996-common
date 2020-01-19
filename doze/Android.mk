@@ -10,8 +10,18 @@ LOCAL_CERTIFICATE := platform
 LOCAL_PRIVATE_PLATFORM_APIS := true
 LOCAL_PRIVILEGED_MODULE := true
 
+LOCAL_USE_AAPT2 := true
+
+LOCAL_STATIC_ANDROID_LIBRARIES := \
+    androidx.core_core \
+    androidx.preference_preference
+
+LOCAL_RESOURCE_DIR := \
+    $(LOCAL_PATH)/res \
+    $(VENDOR_PATH)/devicesettings/res
+
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
 
-include $(BUILD_PACKAGE)
+include frameworks/base/packages/SettingsLib/common.mk
 
-include $(call all-makefiles-under,$(LOCAL_PATH))
+include $(BUILD_PACKAGE)
