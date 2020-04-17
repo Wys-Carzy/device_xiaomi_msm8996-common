@@ -653,8 +653,8 @@ bin/move_time_data.sh|56f1f79a88db709a0c7ed5c507b14c55976d6f32
 vendor/bin/time_daemon|fa1b87481313fc039d969c1ac7c06c77422ff38e
 vendor/lib64/libtime_genoff.so|06df52867790cdbbcc674a3a28d7ad7c8cc161ac
 
-# WiFi - from daisy - PKQ1.180917.001
-vendor/bin/cnss-daemon|badadcc672341e36228301b02c2bfaa36be09233
+# WiFi
+vendor/bin/cnss-daemon
 
 # WiFi Display - from LA.UM.8.6.r1-01900-89xx.0
 bin/wfdservice|d9cccfd6ca14a1d83117533296d6cac2c139c310
