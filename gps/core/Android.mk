@@ -22,7 +22,7 @@ LOCAL_SRC_FILES += \
     LocApiBase.cpp \
     LocAdapterBase.cpp \
     ContextBase.cpp \
-    LocContext.cpp \
+    LocDualContext.cpp \
     loc_core_log.cpp \
     data-items/DataItemsFactoryProxy.cpp \
     SystemStatusOsObserver.cpp \
