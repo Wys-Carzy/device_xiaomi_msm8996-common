@@ -57,3 +57,5 @@
 # Shell scripts
 /(vendor|system/vendor)/bin/init\.panel\.sh    u:object_r:init_panel_exec:s0
 /(vendor|system/vendor)/bin/init\.tfa\.sh      u:object_r:init_tfa_exec:s0
+
+/sys/devices/virtual/graphics/fb0/measured_fps u:object_r:sysfs_dm:s0

@@ -11,3 +11,9 @@ allow untrusted_app sysfs_kgsl:dir search;
 allow untrusted_app system_app_data_file:dir getattr;
 allow untrusted_app system_data_file:dir read;
 allow untrusted_app sysfs_kgsl:lnk_file read;
+
+allow untrusted_app sysfs_batteryinfo:dir search;
+allow untrusted_app sysfs_batteryinfo:file r_file_perms;
+allow untrusted_app sysfs_graphics:file read;
+allow untrusted_app sysfs_devfreq:dir search;
+
